@@ -20,9 +20,10 @@ end
 
 def read_from_hash(hash, key)
     read_from_hash {color: "green"}
+    read_from_hash[color]
 end
 
-read_from_hash[color]
+
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
