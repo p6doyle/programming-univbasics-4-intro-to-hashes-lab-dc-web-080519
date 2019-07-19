@@ -19,8 +19,8 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-    read_from_hash = {color => "green"}
-    read_from_hash[color]
+    read_from_hash = {name => "Steve"}
+    read_from_hash[name]
 end
 
 
