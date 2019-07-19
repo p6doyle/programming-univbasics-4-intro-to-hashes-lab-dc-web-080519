@@ -23,7 +23,7 @@ def read_from_hash(hash, key)
 end
 
 def update_counting_hash(hash, key)
-  hashH = {
+  hashH = {a
   if hashH["apples"]
     hashH["apples"] += 1
   else
